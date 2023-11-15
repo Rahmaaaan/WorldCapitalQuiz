@@ -15,7 +15,6 @@ const db = new pg.Client({
 
 db.connect();
 
-
 let quiz;
 
 db.query("SELECT * FROM capitals", (err, res) => {

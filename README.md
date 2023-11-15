@@ -46,7 +46,8 @@ To run World Capital Quiz locally, follow these steps:
    ```bash
    npm install
    ```
-4. Create a database named `world` and a table named `countries`. 
+
+4. Create a database named `world` and a table named `countries`.
 
 5. Import the `capitals.csv` file into the `countries` table.
 

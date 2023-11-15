@@ -1,2 +1,1 @@
-# WorldCapitalQuiz
- 
+# World Capital Quiz

@@ -46,26 +46,29 @@ To run World Capital Quiz locally, follow these steps:
    ```bash
    npm install
    ```
+4. Create a database named `world` and a table named `countries`. 
 
-4. Set up the database by filling in the details in `index.js` on line 8:
+5. Import the `capitals.csv` file into the `countries` table.
+
+6. Configure the database by filling in the `password` in `index.js` on line 12:
 
    ```javascript
    const db = new pg.Client({
      user: "postgres",
      host: "localhost",
-     database: "",
+     database: "world",
      password: "",
      port: 5432,
    });
    ```
 
-5. Run the application:
+7. Run the application:
 
    ```bash
    node index.js
    ```
 
-6. Open your web browser and navigate to `http://localhost:3000` to access the website.
+8. Open your web browser and navigate to `http://localhost:3000` to access the website.
 
 ## Screenshots
 

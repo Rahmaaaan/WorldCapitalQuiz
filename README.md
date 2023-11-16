@@ -11,7 +11,7 @@ The following technologies and tools were used to develop this project:
 - JavaScript
 - Node.js
 - Express.js
-- MongoDB
+- postgreSQL
 - EJS (Embedded JavaScript)
 
 ## Getting Started
